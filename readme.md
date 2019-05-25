@@ -1,4 +1,4 @@
-** Set Up**
+**Set Up**
 
 1. Install arduino
 2. Run teensy installer
