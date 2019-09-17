@@ -19,7 +19,7 @@ When choosing what hardware to use for my cabinet I found this article extremely
 https://www.tested.com/art/makers/464539-choosing-buttons-and-joysticks-custom-arcade-cabinet/
 
 
-**Why I choose the technologies and design choose I did**
+**Why I made the technology and design choices I did**
 
 1. Why Teensy 3.2 board - I choose the teensy 3.0 board because teensy offers a robust library that sits on top of arduino which supports keyboard/mouse/joystick input out of the box saving me time on writting the underlying libraries. 
 
