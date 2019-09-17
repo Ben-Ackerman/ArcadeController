@@ -1,6 +1,7 @@
 *Arduino Arcade Controller*
 
 **Purpose**
+
 The purpose of this project is to add the necessary libraries to turn a teensy 3.0 into both a joystick or keyboard controller for use in MAME emulation.  
 
 I created this project because I was creating a four player arcade cabinet that would allow for up to 10 buttons per player.  When researching PCBs to use with this cabinet every one I found was either to expensive or did not support the number of players/inputs I was looking for.  Since I had some experience working with arduino's in the past I decided to buy a couple of teenseys and solve this problem myself.
@@ -8,6 +9,7 @@ I created this project because I was creating a four player arcade cabinet that 
 I am putting this source code up here on github to hopefully help give a starting off point for the next maker who finds themselves in the same situation I was in.
 
 **Hardware used for creating arcade controllers**
+
 Each of my four arcade controllers had -
 1 - Teensy 3.2 board https://www.adafruit.com/product/2756?gclid=EAIaIQobChMInJ-GkbTY5AIVcRh9Ch2AeQdXEAQYAyABEgJ7aPD_BwE.
 1 - Sanwa JLF joystick.
@@ -18,6 +20,7 @@ https://www.tested.com/art/makers/464539-choosing-buttons-and-joysticks-custom-a
 
 
 **Why I choose the technologies and design choose I did**
+
 1. Why Teensy 3.2 board - I choose the teensy 3.0 board because teensy offers a robust library that sits on top of arduino which supports keyboard/mouse/joystick input out of the box saving me time on writting the underlying libraries. 
 
 2. Why support both a keyboard and joystick mode.  My plan for this arcade cabinet was to emulate both MAME(digital joystick) and Gamecube(analog joystick) games. By supporting both a joystick and keyboard mode I made working with emulators easier.
