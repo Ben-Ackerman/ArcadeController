@@ -25,7 +25,8 @@ https://www.tested.com/art/makers/464539-choosing-buttons-and-joysticks-custom-a
 
 2. Why support both a keyboard and joystick mode.  My plan for this arcade cabinet was to emulate both MAME(digital joystick) and Gamecube(analog joystick) games. By supporting both a joystick and keyboard mode I made working with emulators easier.
 
-** Issues and solutions I ran into **
+**Issues and solutions I ran into**
+
 1. One problem I ran into was since the joystick is all digital inputs and only determines direction not magnitude what would be the best way of simulating a analog joystick for gamecube emulators?  What I ended up deciding on doing was using one of my buttons as a magnitude switch that toggled the joystick from a high magnitude direction to a low magnitude direction.
 
 2. Since I would not have easy access to my components how would I handle switching between the joystick and keyboard modes.  I decided the easiest and best way from me to switch between modes was to switch when all eight of the players primary buttons are pressed.
